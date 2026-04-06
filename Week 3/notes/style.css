@@ -1,0 +1,104 @@
+* {
+    --base: #FFFFFF;
+    --border-color: #454545;
+    --cardColors: rgba(25,25,25,.82);
+    --accentColor: #FF1744;
+    color:white;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* selecting just the body element */
+
+body {
+    background-color: #454545;
+    background-image: url('./assets/css-pattern-by-magicpattern.png');
+    padding: 0px, 60px
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    font-family: "Roboto Mono", monospace;
+    color: var(--accentColor);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header::first-letter {
+    font-size:48px;
+}
+
+.title {
+    font-family: "Rajdhani", sans-serif;
+        font-weight:600;
+        font-style:normal;
+    font-size:72px;
+    margin-bottom:32px;
+    line-height:84px;
+}
+.title::first-letter {
+    color: var(--accentColor);
+}
+
+h2 {
+    font-family:"Rajdhani", sans-serif;
+        font-weight:600;
+        font-style:normal;
+        font-size:36px;
+        margin-bottom: 32px;
+        text-transform:uppercase;
+        color:white;
+        text-shadow:3px 2px 0px var(--accentColor);
+}
+
+.cards div {
+    background-color: var(--cardColors);
+    padding:16px;
+    border: .5px solid var(--borderColor);
+    border-radius:4px;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:24px;
+
+    /* short hand for centering items is margin 0 auto */
+}
+
+.cards div:hover {
+    box-shadow: 8px 8px var(--accentColor);
+}
+
+.cards div > img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    border-radius:8px;
+    box-shadow:2px 1px 1px rgba(0,0,0,.4);
+}
+
+h3 {
+    color: #FFF;
+        font-family: "Roboto Mono";
+        font-size:32px;
+        font-style:normal;
+        font-weight:700;
+        line-height:126.637%;
+        /* 40.524px */
+        letter-spacing:3.52px;
+        text-transform:uppercase;
+}
+
+.education > ul {
+    background-color: var(--cardColors);
+    font-size:24px;
+    list-style-image: url('./assets/css-pattern-by-magicpattern\ \(1\).png');
+}
+
+.education > ul li {
+    padding:16px;
+}
+
+.year {
+    color:var(--accentColor);
+}
