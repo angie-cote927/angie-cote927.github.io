@@ -1,0 +1,25 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 2rem;
+    color: rgb(154, 1, 77);
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+}
+h1 {
+    color:hotpink;
+}
+
+.hidden {
+    display: none;
+}
